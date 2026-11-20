@@ -1,0 +1,58 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#292622;background:#fffdf9;font-family:'DM Sans',Arial,sans-serif}a{color:inherit;text-decoration:none}.topline{background:#282622;color:#f8f3ec;text-align:center;padding:10px 14px;font-size:9px;letter-spacing:.2em}.header{height:84px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e9e3dc;background:#fffdf9}.brand{display:flex;align-items:center;gap:10px;letter-spacing:.12em}.brand-icon{width:38px;height:38px;border:1px solid #a66f68;border-radius:50%;display:grid;place-items:center;color:#a66f68;font:600 14px 'Playfair Display',serif}.brand b,.brand small{display:block}.brand b{font-size:12px}.brand small{margin-top:3px;color:#827a73;font-size:9px;letter-spacing:.3em}.header nav{display:flex;gap:26px}.header nav a,.header-link{font-size:11px;color:#5f5953}.header nav a:hover,.header-link:hover{color:#a66f68}.header-link{border:1px solid #cdbbb0;border-radius:30px;padding:11px 16px}.header-link span{margin-left:10px}.hero{min-height:570px;padding:66px 10%;display:grid;grid-template-columns:1fr 1fr;gap:5%;align-items:center;background:#f7f3ed;overflow:hidden}.eyebrow{color:#a66f68;font-size:9px;font-weight:700;letter-spacing:.19em}.eyebrow i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#9da991;margin-right:7px}h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:-.035em}h1{font-size:clamp(48px,5.5vw,74px);line-height:1.06;margin:20px 0}h1 em,h2 em{color:#a66f68}p{color:#77716c;font-size:12px;line-height:1.9}.hero-text>p{max-width:430px}.hero-buttons{display:flex;align-items:center;gap:22px;margin-top:28px}.btn{display:inline-block;padding:14px 19px;font-size:10px;font-weight:700;letter-spacing:.04em}.btn.dark{background:#292622;color:white}.btn.dark:hover{background:#a66f68}.btn.light{background:#fffdf9;color:#292622;margin-top:10px}.simple-link{font-size:10px;border-bottom:1px solid #b8aaa0;padding-bottom:5px}.hero-foot{display:flex;align-items:center;gap:12px;margin-top:42px;color:#a66f68;font-size:20px}.hero-foot span:last-child{font-size:10px;line-height:1.7;color:#77716c}.hero-foot b{color:#292622}.hero-visual{height:420px;position:relative}.hero-photo{position:absolute;background-size:cover;background-position:center;box-shadow:0 18px 45px #45362b18}.hero-photo-a{width:62%;height:78%;top:0;left:3%;background-image:url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=85')}.hero-photo-b{width:48%;height:62%;right:0;bottom:0;border:9px solid #f7f3ed;background-image:url('https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=85')}.hero-label{position:absolute;left:41%;top:35%;z-index:2;padding:18px 22px;background:#fffdf9;box-shadow:0 10px 35px #45362b20;transform:rotate(-4deg)}.hero-label small{display:block;color:#a66f68;font-size:7px;letter-spacing:.14em}.hero-label b{display:block;font:600 21px/1.1 'Playfair Display',serif;margin:9px 0}.round-seal{position:absolute;right:-3%;top:4%;width:78px;height:78px;border:1px solid #b68b80;border-radius:50%;display:grid;place-content:center;text-align:center;color:#a66f68;font-size:8px;letter-spacing:.14em;line-height:1.5;transform:rotate(12deg)}.value-row{padding:21px 10%;display:flex;justify-content:space-around;gap:15px;border-bottom:1px solid #e9e3dc;color:#69625c;font-size:10px}.section{padding:90px 10%}.section-title{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}.section-title h2,.feature-copy h2,.about-strip h2{font-size:clamp(34px,4vw,47px);line-height:1.12;margin:12px 0 0}.section-title>p{max-width:300px;margin:0 0 3px}.category-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}.category{background:#f8f5ef}.category-image{height:265px;background-size:cover;background-position:center}.beauty-image{background-image:url('https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=900&q=85')}.fashion-image{background-image:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85')}.accessories-image{background-image:url('https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=85')}.category-caption{padding:18px 19px 20px}.category-caption small,.tile small{font-size:8px;letter-spacing:.15em;color:#a66f68}.category-caption b{display:block;margin:8px 0;font:600 22px 'Playfair Display',serif}.category-caption b span{float:right;font:15px Arial}.category-caption p{margin:0;font-size:10px}.feature-band{display:grid;grid-template-columns:1fr 1fr;min-height:390px;background:#e4e7df}.feature-image{background-size:cover;background-position:center}.beauty-feature{background-image:url('https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1100&q=85')}.accessories-feature{background-image:url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1100&q=85')}.feature-copy{align-self:center;padding:55px 12%}.feature-copy h2{margin-bottom:16px}.feature-copy p{max-width:420px;color:#64675f}.alt{background:#f8f5ef}.tile-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.tile{background:#fffdf9;padding-bottom:20px}.tile-image{height:230px;background-size:cover;background-position:center}.clothing-tile{background-image:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85')}.shoes-tile{background-image:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=85')}.occasion-tile{background-image:url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85')}.tile small,.tile h3,.tile p{margin-left:18px;margin-right:18px}.tile small{display:block;margin-top:17px}.tile h3{font-size:19px;margin-top:8px;margin-bottom:6px}.tile p{font-size:10px;margin-top:0}.reverse .feature-image{order:2}.guide-list{border-top:1px solid #e9e3dc}.guide-list a{display:grid;grid-template-columns:38px 1fr 25px;gap:14px;align-items:center;padding:18px 4px;border-bottom:1px solid #e9e3dc}.guide-list i{font-style:normal;color:#a66f68;font-size:10px}.guide-list small{display:block;color:#a66f68;font-size:8px;letter-spacing:.15em;margin-bottom:5px}.guide-list b{font:600 18px 'Playfair Display',serif}.guide-list strong{text-align:right;font-size:14px}.about-strip{text-align:center;padding:75px 20px;background:#f0e3de}.about-strip h2{margin:14px 0}.about-strip p{max-width:490px;margin:14px auto 23px}.footer{padding:40px 10% 25px;background:#292723;color:#f8f4ed;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}.footer-brand .brand-icon{color:#e2b9ae;border-color:#c49b90}.footer-brand small{color:#c9beb4}.footer-nav{display:flex;gap:18px;flex-wrap:wrap}.footer-nav a{font-size:9px;color:#ddd4ca}.footer p,.footer .legal{grid-column:1/-1;color:#bdb4aa;font-size:9px;margin:0;line-height:1.7}
+@media(max-width:850px){.header{padding:14px 5%;height:auto;flex-wrap:wrap;gap:13px}.header nav{order:3;width:100%;overflow:auto;gap:18px;padding:4px 0}.header nav a{white-space:nowrap}.hero{padding:55px 7%;grid-template-columns:1fr 1fr}.section{padding:72px 7%}.category-image{height:220px}}
+@media(max-width:620px){.hero{display:block;padding:48px 7%}.hero-visual{height:325px;margin-top:40px}.hero h1{font-size:50px}.value-row{padding:18px 7%;display:grid;gap:10px}.section{padding:60px 7%}.section-title{display:block}.section-title>p{margin-top:12px}.category-grid,.tile-grid{grid-template-columns:1fr;gap:22px}.category-image{height:300px}.feature-band{grid-template-columns:1fr}.feature-image{min-height:260px}.feature-copy{padding:45px 8%}.reverse .feature-image{order:0}.tile-image{height:260px}.guide-list b{font-size:15px}.footer{grid-template-columns:1fr;padding:36px 7%}.footer p,.footer .legal{grid-column:1}}
+
+/* Editorial shopping-guide pages */
+.article-page{background:#fffdf9}
+.article-wrap{background:#f7f3ed;padding:34px 20px 80px}
+.breadcrumbs{max-width:900px;margin:0 auto 28px;color:#8b8179;font-size:10px;letter-spacing:.04em}
+.breadcrumbs a{color:#a66f68}
+.article-content{max-width:820px;margin:0 auto;background:#fffdf9;padding:clamp(28px,6vw,66px);box-shadow:0 16px 55px #45362b0d}
+.article-content h1{font-size:clamp(38px,5.5vw,62px);line-height:1.08;margin:18px 0}
+.article-intro{font-size:16px;line-height:1.8;color:#665f58;max-width:690px}
+.article-meta{margin:25px 0 34px;padding:14px 0;border-top:1px solid #e9e3dc;border-bottom:1px solid #e9e3dc;color:#a66f68;font-size:9px;letter-spacing:.16em}
+.article-meta span{padding:0 9px;color:#b8aaa0}
+.article-body{color:#514b45;font-size:14px;line-height:1.95}
+.article-body h2{font-size:27px;line-height:1.2;margin:34px 0 10px;color:#292622}
+.article-body p{font-size:14px;line-height:1.95;color:#655e58;margin:0 0 17px}
+.article-body strong{color:#39332e}
+.article-body ul{padding-left:22px;margin:4px 0 22px;color:#655e58}
+.article-body li{padding:4px 0;font-size:13px;line-height:1.8}
+.editorial-note{margin-top:38px;padding:22px 24px;background:#f5eee8;border-left:3px solid #a66f68}
+.editorial-note strong{font:600 17px 'Playfair Display',serif}
+.editorial-note p{margin:8px 0 0;font-size:11px;line-height:1.8}
+.article-bottom{margin-top:28px}
+@media(max-width:620px){.article-wrap{padding:22px 12px 50px}.article-content{padding:28px 22px}.article-content h1{font-size:39px}.article-body h2{font-size:23px}.article-body,.article-body p{font-size:13px}}
+
+/* Typography refinement: compact, easier-to-read editorial layout */
+.article-content{max-width:780px;padding:clamp(24px,4vw,48px)}
+.article-content h1{font-size:clamp(30px,4vw,42px);line-height:1.14;margin:14px 0}
+.article-intro{font-size:14px;line-height:1.7}
+.article-body{font-size:12px;line-height:1.8}
+.article-body p{font-size:12px;line-height:1.8;margin:0 0 13px}
+.article-body h2{font-size:20px;line-height:1.25;margin:26px 0 8px}
+.article-body li{font-size:12px;line-height:1.7;padding:3px 0}
+.article-meta{font-size:8px;margin:20px 0 26px}
+.product-comparison h2{font-size:22px;line-height:1.25}
+.product-comparison h3{font-size:18px;margin:24px 0 10px}
+.comparison-intro,.source-note{font-size:11px;line-height:1.7}
+.comparison-table{font-size:11px;line-height:1.55}
+.comparison-table th{font-size:9px;padding:10px 8px}
+.comparison-table td{padding:10px 8px}
+.editorial-note{padding:17px 19px}
+.editorial-note strong{font-size:15px}
+.editorial-note p{font-size:10px;line-height:1.7}
+.breadcrumbs{font-size:9px}
+@media(max-width:620px){
+ .article-content{padding:24px 18px}
+ .article-content h1{font-size:30px}
+ .article-body h2{font-size:18px}
+ .product-comparison h2{font-size:20px}
+ .product-comparison h3{font-size:17px}
+}
+
+/* Compact shopping-guide directory typography */
+.guide-list a{padding:15px 4px;grid-template-columns:34px 1fr 20px;gap:12px}
+.guide-list b{font-size:16px;line-height:1.35}
+.guide-list small{font-size:7px;margin-bottom:4px}
+@media(max-width:620px){.guide-list b{font-size:14px}.guide-list a{padding:13px 3px;gap:10px}}
